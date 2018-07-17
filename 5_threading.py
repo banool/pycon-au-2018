@@ -27,3 +27,8 @@ with ThreadPoolExecutor() as pool:
 
 for k, v in data.items():
     print(make_a_sentence(k, v))
+
+# Spinach is delicious!
+# Fruit is spectacular!
+# Dairy is yucky!
+# Meat is not cool!
