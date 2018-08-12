@@ -2,16 +2,15 @@ import os
 
 from contextlib import suppress
 
-
-def remove_file(path):
-    # Remove a file, ignore if it can't be found.
-    with suppress(FileNotFoundError):
-        os.remove(path)
-
-
-# More succinct than:
-def remove_file(path):
+# Kill  process, ignore if it can't be found.
+def kill_process(pid):
     try:
-        os.remove(path)
-    except FileNotFoundError:
+        os.kill(pid, signal.SIGKILL)
+    except ProcessLookupError:
         pass
+
+def kill_process(pid):
+    with suppress(ProcessLookupError):
+        os.kill(pid, signal.SIGKILL)
+
+
