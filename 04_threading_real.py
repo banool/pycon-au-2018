@@ -6,7 +6,7 @@ from concurrent.futures import (
 data = {
     "Watermelon": "delicious",
     "Fruit": "spectacular",
-    "Dairy": "yucky",
+    "Dairy": "scary",
     "Meat": "not cool",
 }
 
