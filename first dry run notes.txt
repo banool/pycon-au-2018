@@ -1,0 +1,17 @@
+no side effects in init. make sure you know role of init and enter. dont want context manager to expensive to initalise.
+
+give simple explanation of certain things we need:
+- generators
+- decorators
+
+flesh out exception handling behaviour
+
+flesh out use cases section more
+
+acknowledge that it will get harder and i'll leave plenty of question time. it's okay not to grok everything. look up other talks to recommend.
+
+talk more about why they're useful at the start, and other great things about them.
+
+code highlighting part was cool.
+
+it was only 12 minutes long
