@@ -1,6 +1,8 @@
 # Pycon AU 2018
 ## Context Managers: You Can Write Your Own!
 
+**YouTube recording:** https://www.youtube.com/watch?v=-tpn94V9vK4
+
 This repo holds all the code snippets from my presentation at Pycon AU 2018.
 
 See the summary for my presentation here: https://2018.pycon-au.org/talks/45062-context-managers-you-can-write-your-own/.
